@@ -1,0 +1,6 @@
+framework module CFWebImage {
+  umbrella header "CFWebImage-umbrella.h"
+
+  export *
+  module * { export * }
+}

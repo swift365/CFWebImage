@@ -1,0 +1,6 @@
+framework module Pods_CFWebImage_Example {
+  umbrella header "Pods-CFWebImage_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

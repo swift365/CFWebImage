@@ -1,0 +1,21 @@
+PODS:
+  - CFWebImage (0.1.0):
+    - SDWebImage (~> 4.0.0-beta2)
+  - SDWebImage (4.0.0-beta2):
+    - SDWebImage/Core (= 4.0.0-beta2)
+  - SDWebImage/Core (4.0.0-beta2)
+
+DEPENDENCIES:
+  - CFWebImage (from `../`)
+
+EXTERNAL SOURCES:
+  CFWebImage:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CFWebImage: 7efa24093e89b72c2997efcf237efed43bedddc6
+  SDWebImage: e379f33106cf8d6766f970c0ef1c3fb609c94d78
+
+PODFILE CHECKSUM: 723d3d8816b0bf83595dad5e69dfcbf078505b83
+
+COCOAPODS: 1.1.1
