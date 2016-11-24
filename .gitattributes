@@ -1,2 +1,2 @@
 Example/Pods linguist-vendored
-*.rb linguist-language=Swift
+*.* linguist-language=Swift
