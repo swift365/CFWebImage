@@ -11,8 +11,14 @@ import UIKit
 import SDWebImage
 
 public extension UIImageView {
+    @nonobjc
     public func cf_setImage(url:NSURL,placeHolderImage:UIImage?){
         self.sd_setImage(with: url as URL, placeholderImage: placeHolderImage)
+    }
+    
+    @nonobjc
+    public func cf_setImage(url:URL,placeHolderImage:UIImage?){
+        self.sd_setImage(with: url, placeholderImage: placeHolderImage)
     }
 }
 
